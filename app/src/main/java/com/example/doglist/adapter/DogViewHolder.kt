@@ -1,4 +1,4 @@
-package com.example.doglist
+package com.example.doglist.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

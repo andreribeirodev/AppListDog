@@ -1,11 +1,14 @@
-package com.example.doglist
+package com.example.doglist.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.doglist.api.APIService
+import com.example.doglist.adapter.DogAdapter
 import com.example.doglist.databinding.ActivityMainBinding
+import com.example.doglist.model.DogResponse
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
